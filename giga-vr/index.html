@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIGA VR(架空のサイト)</title>
+
+    <meta name="description" content="架空のサイトです。GIGA VR新発売。世界発の触覚センサー内蔵で本当に触れているかのような感覚を実現。さあ、非日常の旅に出よう!" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" />
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="GIGA VR" />
+    <meta property="og:url" content="https://intp.site/2030/giga_vr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GIGA VR" />
+    <meta property="og:description" content="架空のサイトです。GIGA VR新発売。世界初の触覚センサー内蔵で本当に触れているかのような感覚を実現。さあ、非日常の旅に出よう!" />
+    <meta property="og:image" content="https://intp.site/2030/giga_vr/ogp.jpg" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- x card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&family=Train+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!------------ js ------------->
+    <!-- x -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- facebook  -->
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v19.0"
+      nonce="4qpkIFmw"
+    ></script>
+    <!-- line  -->
+    <script
+      src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js"
+      async="async"
+      defer="defer"
+    ></script>
+    <!-- hatena -->
+    <script
+      src="https://b.st-hatena.com/js/bookmark_button.js"
+      charset="utf-8"
+      async="async"
+    ></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="js/gsap.js" defer></script>
+    <!-- main -->
+    <script src="js/main.js" defer></script>
+
+    <meta name="robots" content="noindex,nofollow" />
+  </head>
+  <!-- body -->
+  <body>
+    <div class="loading-animation"><span class="loading-icon">GIGA VR</span></div>
+    <!-- header -->
+    <header>
+      <div class="gnav-wrap">
+        <h1 class="title c-font-english--uppercase">giga vr</h1>
+        <!-- gnav-button -->
+        <button class="gnav__button" aria-label="ページトップのナビゲーションを開く" >
+          <div class="gnav__button__icon">
+            <span class="icon-line icon-line__top"></span>
+            <span class="icon-line icon-line__middle"></span>
+            <span class="icon-line icon-line__bottom"></span>
+          </div>
+        </button>
+        <!-- end gnav-button -->
+        <!-- gnav -->
+        <nav class="gnav" aria-label="サイト全体のナビゲーション">
+          <ul class="gnav__list">
+            <li class="gnav__item gnav__item--under">
+              <button
+                class="js-touch gnav__touch__button c-font-english--uppercase"
+                aria-label="ゲームソフト一覧を開くボタン"
+                >vrゲームソフト<span class="material-symbols-outlined gnav__list__icon">expand_more</span>
+              </button>
+              <div class="gnav__under__list__wrap">
+                <ul class="gnav__under__list">
+                  <li class="gnav__under__item">
+                    <a class="gnav__under__link c-font-english" href="#">SKY Simulator</a>
+                  </li>
+                  <li class="gnav__under__item">
+                    <a class="gnav__under__link c-font-english--uppercase" href="#">boxing</a>
+                  </li>
+                  <li class="gnav__under__item">
+                    <a class="gnav__under__link c-font-english--uppercase" href="#">right soul</a>
+                  </li>
+                  <li class="gnav__under__item">
+                    <a class="gnav__under__link c-font-english" href="#">Sword&Dragon</a>
+                  </li>
+                  <li class="gnav__under__item">
+                    <a class="gnav__under__link c-font-english--uppercase" href="#">speed</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="gnav__item gnav__item--under">
+              <button
+                class="js-touch gnav__touch__button c-font-english--uppercase"
+                aria-label="GIGAvrのラインナップ一覧を開くボタン"
+                >GIGA vrラインナップ<span class="material-symbols-outlined gnav__list__icon"> expand_more </span>
+                </button>
+              <div class="gnav__under__list__wrap">
+                <ul class="gnav__under__list">
+                  <li class="gnav__under__item">
+                    <a class="gnav__under__link c-font-english" href="#">GIGA VR Beginner</a>
+                  </li>
+                  <li class="gnav__under__item">
+                    <a class="gnav__under__link c-font-english" href="#">GIGA VR Standard</a>
+                  </li>
+                  <li class="gnav__under__item">
+                    <a class="gnav__under__link c-font-english" href="#">GIGA VR Pro</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="gnav__item">
+              <a class="gnav__link c-button c-button--primary c-button--shadow" href="#"
+                ><span class="c-font-english--uppercase">giga vr</span>を購入する</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- end gnav -->
+      </div>
+      <!-- end header-layout -->
+      <section class="first-view__contents">
+        <div class="first-view__contents__inner">
+          <h2 class="first-view__product-name c-font-english--uppercase">giga vr</h2>
+          <picture>
+            <source srcset="images/first-view.webp" type="image/webp" />
+            <img class="first-view__img" src="images/first-view.png" alt="" width="1584" height="1099" />
+          </picture>
+          <p class="c-catch-copy first-view__catch-copy">
+            さあ、<em class="c-catch-copy--emphasis">非日常</em>の旅に出よう！
+          </p>
+        </div>
+      </section>
+    </header>
+    <!-- end header -->
+    <!-- main -->
+    <main>
+      <!-- about -->
+      <section class="about">
+        <div class="about__video">
+          <video src="video/about.mp4"  autoplay loop playsinline muted></video>
+        </div>
+        <div class="about__inner container--L">
+          <h3 class="section-title section-title--primary">
+            <span class="c-font-english--uppercase">giga vr</span>について
+          </h3>
+          <div class="about__description">
+            <picture class="about__description__image about__description__image--right">
+              <source media="(min-width: 1024px)" srcset="images/about_01_large.avif" type="image/avif" />
+              <source srcset="images/about_01.avif" type="image/avif" />
+              <img
+                src="images/about_01.jpg"
+                alt="男性がvrゴーグルをつけvr空間の中で何かに触れているイメージ画像"
+                width="1920"
+                height="1280"
+              />
+            </picture>
+            <p class="about__description__text about__description__text--right">
+              世界初！触覚センサー内蔵で本当に触れているような感覚を実現！
+            </p>
+          </div>
+
+          <div class="about__description">
+            <picture class="about__description__image">
+              <source media="(min-width: 1024px)" srcset="images/about_02_large.avif" type="image/avif" />
+              <source srcset="images/about_02.avif" type="image/avif" />
+              <img
+                src="images/about_02.jpg"
+                alt="ライブ会場のように包まれる音響をイメージした画像"
+                width="1920"
+                height="1440"
+              />
+            </picture>
+            <p class="about__description__text">
+              音響は全方向からリアルな距離感を感知し聞こえるリアルサウンドキャッチセンサーを採用
+            </p>
+          </div>
+
+          <div class="about__description">
+            <picture class="about__description__image about__description__image--right">
+              <source media="(min-width: 1024px)" srcset="images/about_03_large.avif" type="image/avif" />
+              <source srcset="images/about_03.avif" type="image/avif" />
+              <img
+                src="images/about_03.jpg"
+                alt="エアージェット搭載機能をイメージした、vrゴーグルをつけた女性が外で青空とともに映っている画像"
+                width="1920"
+                height="1280"
+              />
+            </picture>
+            <p class="about__description__text about__description__text--right">
+              エアージェット搭載でゴーグルをつけている際は宙に浮き付けている感覚なし！
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+      <!-- banner -->
+      <aside class="about-under-banner">
+        <a class="about-under-banner__link" href="#">
+          <picture>
+            <source media="(max-width: 1079px)" srcset="images/banner_03_giga-vr_500_160.avif" type="image/avif" />
+            <img
+              class="about-under-banner__img"
+              src="images/banner_03_giga-vr_500_160.jpg"
+              alt="バナー広告。さあ、非日常の旅に出よう！まるで本当に触れているかのような感覚を実現するセンサーを搭載！詳細はこちら"
+              width="998"
+              height="326"
+            />
+          </picture>
+        </a>
+      </aside>
+      <!-- end banner -->
+      <!-- game-soft -->
+      <section class="game-soft">
+        <h3 class="section-title">
+          <em class="game-soft__title--emphasis">300</em>以上のVRゲームソフトラインナップ!
+          <span class="game-soft__sub-title">きっとお気に入りのゲームが見つかるはず！</span>
+        </h3>
+        <!-- game-soft__gallery-wrap -->
+        <div class="game-soft__gallery-wrap">
+          <video
+            class="game-soft__video"
+            src="video/game-soft_01.mp4"
+            autoplay
+            loop
+            playsinline
+            muted
+          ></video>
+          <video
+            class="game-soft__video"
+            src="video/game-soft_02.mp4"
+            autoplay
+            loop
+            playsinline
+            muted
+          ></video>
+          <video
+            class="game-soft__video"
+            src="video/game-soft_03.mp4"
+            autoplay
+            loop
+            playsinline
+            muted
+          ></video>
+          <!-- game-soft__gallery -->
+          <div class="game-soft__gallery">
+            <picture class="game-soft__gallery__image">
+              <source srcset="images/game-soft_01_sky-simulator.avif" type="image/avif"/>
+              <img
+                src="images/game-soft_01_sky-simulator.jpg"
+                alt="ゲームソフトの画像がバラバラに散らばって配置されています"
+                width="500"
+                height="500"
+                loading="lazy"
+              />
+            </picture>
+            <picture class="game-soft__gallery__image">
+              <source srcset="images/game-soft_02_right-soul.avif" type="image/avif" />
+              <img src="images/game-soft_02_right-soul.jpg" alt="" width="500" height="500" loading="lazy" />
+            </picture>
+            <picture class="game-soft__gallery__image">
+              <source srcset="images/game-soft_03_sword&dragon.avif" type="image/avif" />
+              <img src="images/game-soft_03_sword&dragon.jpg" alt="" width="500" height="500" loading="lazy" />
+            </picture>
+            <picture class="game-soft__gallery__image">
+              <source srcset="images/game-soft_04_boxing.avif" type="image/avif" />
+              <img src="images/game-soft_04_boxing.jpg" alt="" width="500" height="500" loading="lazy" />
+            </picture>
+            <picture class="game-soft__gallery__image">
+              <source srcset="images/game-soft_05_speed.avif" type="image/avif" />
+              <img src="images/game-soft_05_speed.jpg" alt="" width="500" height="500" loading="lazy" />
+            </picture>
+          </div>
+          <!-- end game-soft__gallery -->
+        </div>
+        <!-- end game-soft__gallery-wrap -->
+      </section>
+      <!--end game-soft -->
+      <!-- banner  -->
+      <aside class="game-soft__banner">
+        <a class="game-soft__banner__link" href="#">
+          <picture>
+            <source media="(max-width: 1079px)" srcset="images/banner_03_giga-vr_game.avif" type="image/avif" />
+            <img
+              class="game-soft__banner-img"
+              src="images/banner_03_giga-vr_game.jpg"
+              alt="バナー広告。VRゲームソフトがお得!セール80%off"
+              width="600"
+              height="500"
+            />
+          </picture>
+        </a>
+        <a class="game-soft__banner__link" href="#">
+          <picture>
+            <source media="(max-width: 1079px)" srcset="images/banner_03_giga-vr_game.avif" type="image/avif" />
+            <img
+              class="game-soft__banner-img"
+              src="images/banner_03_giga-vr_game.jpg"
+              alt="バナー広告。VRゲームソフトがお得!セール80%off"
+              width="600"
+              height="500"
+            />
+          </picture>
+        </a>
+      </aside>
+      <!-- end banner -->
+      <!-- vr-lineup -->
+      <section class="vr-lineup">
+        <div class="container--LL">
+          <h3 class="section-title"><span class="c-font-english--uppercase"></span> ラインナップ</h3>
+          <small>※クリックやタッチで商品リンクへ</small>
+          <ul class="vr-lineup__list">
+            <li class="vr-lineup__item">
+              <a class="vr-lineup__item__link" href="#">
+                <picture>
+                  <source srcset="images/vr-lineup_01_beginner.avif" type="image/avif" />
+                  <img
+                    class="vr-lineup__item__img"
+                    src="images/vr-lineup_01_beginner.jpg"
+                    alt=""
+                    width="822"
+                    height="616"
+                    loading="lazy"
+                  />
+                </picture>
+                <h4 class="vr-lineup__product-name">GIGA VR Beginner</h4>
+                <p class="vr-lineup__product-description">VR体験をしたことがなく気軽に始めたい方に最適!</p>
+              </a>
+            </li>
+            <li class="vr-lineup__item">
+              <a class="vr-lineup__item__link" href="#">
+                <picture>
+                  <source srcset="images/vr-lineup_02_standard.avif" type="image/avif" />
+                  <img
+                    class="vr-lineup__item__img"
+                    src="images/vr-lineup_02_standard.jpg"
+                    alt=""
+                    width="865"
+                    height="632"
+                    loading="lazy"
+                  />
+                </picture>
+                <h4 class="vr-lineup__product-name">GIGA VR Standard</h4>
+                <p class="vr-lineup__product-description">迷ったらコレ!VRを存分に体験できるオススメ商品です!</p>
+              </a>
+            </li>
+            <li class="vr-lineup__item">
+              <a class="vr-lineup__item__link" href="#">
+                <picture>
+                  <source srcset="images/vr-lineup_03_pro.avif" type="image/avif" />
+                  <img
+                    class="vr-lineup__item__img"
+                    src="images/vr-lineup_03_pro.jpg"
+                    alt=""
+                    width="822"
+                    height="614"
+                    loading="lazy"
+                  />
+                </picture>
+                <h4 class="vr-lineup__product-name">GIGA VR Pro</h4>
+                <p class="vr-lineup__product-description">至高の体験をしたいあなたにリッチなVR体験を・・</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end vr-lineup -->
+      <!-- question -->
+      <section class="question">
+        <div class="container--S">
+          <h3 class="section-title">よくある質問</h3>
+          <details class="details">
+            <summary class="details-title">
+              返品保障はありますか？
+              <div class="question-icon-wrap"><span class="question-icon"></span></div>
+            </summary>
+            <div class="details-content">
+              <span class="details-content__inner">はい。商品にご満足いただけなければ一カ月以内なら 返品可能です</span>
+            </div>
+          </details>
+          <details class="details">
+            <summary class="details-title">
+              接続はどのようにすればよいですか？
+              <div class="question-icon-wrap"><span class="question-icon"></span></div>
+            </summary>
+            <div class="details-content">
+              <span class="details-content__inner"
+                >wifi環境があれば無線で接続可能です。もちろんコンセントでの接続もできます。</span
+              >
+            </div>
+          </details>
+          <details class="details">
+            <summary class="details-title">
+              VRを体験したことがないので満足できるか心配です。
+              <div class="question-icon-wrap"><span class="question-icon"></span></div>
+            </summary>
+            <div class="details-content">
+              <span class="details-content__inner"
+                >世界初の触覚センサー内蔵と豊富なゲームソフトのラインナップがありあなたにあった満足する体験を提供する自信があります。もしご心配であれば返品保障もありますので気軽にお試しください。</span
+              >
+            </div>
+          </details>
+          <!-- banner  -->
+          <div class="giga-vr__banner-wrap">
+            <aside class="giga-vr__banner">
+              <a class="giga-vr__banner__link" href="#">
+                <picture>
+                  <source
+                    media="(max-width: 1469px)"
+                    srcset="images/banner_01_giga-vr_300_250.avif"
+                    type="image/avif"
+                  />
+                  <source media="(max-width: 1469px)" srcset="images/banner_01_giga-vr_300_250.jpg" type="image/avif" />
+                  <source
+                    media="(min-width: 1470px)"
+                    srcset="images/banner_02_giga-vr_200_600.avif"
+                    type="image/avif"
+                  />
+                  <img
+                    class="giga-vr__banner-img"
+                    src="images/banner_02_giga-vr_200_600.jpg"
+                    alt="バナー広告。さあ、非日常の旅に出よう！まるで本当に触れているかのような感覚を実現するセンサーを搭載！詳細はこちら"
+                    width="600"
+                    height="500"
+                  />
+                </picture>
+              </a>
+            </aside>
+            <aside class="giga-vr__banner">
+              <a class="giga-vr__banner__link" href="#">
+                <picture>
+                  <source
+                    media="(max-width: 1469px)"
+                    srcset="images/banner_01_giga-vr_300_250.avif"
+                    type="image/avif"
+                  />
+                  <source media="(max-width: 1469px)" srcset="images/banner_01_giga-vr_300_250.jpg" type="image/avif" />
+                  <source
+                    media="(min-width: 1470px)"
+                    srcset="images/banner_02_giga-vr_200_600.avif"
+                    type="image/avif"
+                  />
+                  <img
+                    class="giga-vr__banner-img"
+                    src="images/banner_02_giga-vr_200_600.jpg"
+                    alt="バナー広告。さあ、非日常の旅に出よう！まるで本当に触れているかのような感覚を実現するセンサーを搭載！詳細はこちら"
+                    width="600"
+                    height="500"
+                  />
+                </picture>
+              </a>
+            </aside>
+          </div>
+          <!-- end banner -->
+        </div>
+      </section>
+      <!-- end question -->
+      <!-- campaign -->
+      <section class="campaign">
+        <div class="campaign-inner container">
+          <h3 class="campaign__title">今だけのスペシャルキャンペーン!</h3>
+          <div class="campaign__figure-wrap">
+            <figure class="campaign__figure">
+              <picture>
+                <source srcset="images/vr-lineup_02_standard.avif" type="image/avif" />
+                <img
+                  class="campaign__img"
+                  src="images/vr-lineup_02_standard.jpg"
+                  alt=""
+                  width="865"
+                  height="632"
+                  loading="lazy"
+                />
+              </picture>
+              <figcaption class="campaign__figure__text c-font-english">
+                GIGA VR <span class="campaign__figure__text--break">Standard</span>
+              </figcaption>
+            </figure>
+
+            <div class="campaign__plus-icon">
+              <span class="campaign__icon-line"></span>
+              <span class="c-visually-hidden">プラス</span>
+            </div>
+
+            <figure class="campaign__figure">
+              <picture>
+                <source srcset="images/game-soft_04_boxing.avif" type="image/avif" />
+                <img
+                  class="campaign__img"
+                  src="images/game-soft_04_boxing.jpg"
+                  alt=""
+                  width="500"
+                  height="500"
+                  loading="lazy"
+                />
+              </picture>
+              <figcaption class="campaign__figure__text">
+                お好きなゲーム<span class="campaign__figure__text--break">ソフト1本</span>
+              </figcaption>
+            </figure>
+          </div>
+          <p class="campaign__price">398,000円（税込）</p>
+          <p class="c-catch-copy">さあ、<em class="c-catch-copy--emphasis">非日常</em>の旅に出よう！</p>
+          <a class="c-button c-button--primary c-button--shadow" href="#"
+            ><span class="c-font-english--uppercase">giga vr</span>を購入する</a
+          >
+        </div>
+      </section>
+      <!-- end campaign -->
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer>
+      <div class="footer__inner container">
+        <h4 class="footer-logo c-font-english--uppercase">giga vr</h4>
+
+        <nav class="sns-nav" aria-label="サイト下部のsnsリンクナビゲーション">
+          <div class="sns-wrap">
+            <!-- x -->
+              <a
+                href="https://twitter.com/x?ref_src=twsrc%5Etfw"
+                class="twitter-follow-button"
+                data-show-count="false"
+                target="_blank"
+                >Follow @x</a
+              >
+            <!-- end x -->
+            <!-- facebook -->
+            <div
+              class="fb-like"
+              data-href="https://developers.facebook.com/docs/plugins/"
+              data-width=""
+              data-layout="button_count"
+              data-action=""
+              data-size=""
+              data-share="true"
+            ></div>
+            <!-- end facebook -->
+            <!-- line -->
+            <div
+              class="line-it-button"
+              data-lang="ja"
+              data-type="share-b"
+              data-env="REAL"
+              data-url="https://developers.line.biz/ja/docs/line-social-plugins/install-guide/using-line-share-buttons/"
+              data-color="default"
+              data-size="large"
+              data-count="false"
+              data-ver="3"
+              style="display: none"
+            ></div>
+            <!-- end line -->
+            <!-- hatena -->
+            <a
+              href="https://b.hatena.ne.jp/entry/"
+              target="_blank"
+              class="hatena-bookmark-button"
+              data-hatena-bookmark-layout="touch-counter"
+              title="このエントリーをはてなブックマークに追加"
+              ><img
+                src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png"
+                alt="このエントリーをはてなブックマークに追加"
+                width="20"
+                height="20"
+                style="border: none"
+            /></a>
+            <!-- end hatena -->
+            <!-- Instagram -->
+            <a class="instagram-link" href="https://www.instagram.com/dummyaccount1587/" target="_blank"
+              ><img
+                src="images/Instagram_Glyph_Gradient.svg"
+                alt="Instagramのリンク先へ行きます"
+                width="50"
+                height="50"
+            /></a>
+            <!-- end Instagram -->
+          </div>
+          <!-- end sns-wrap -->
+        </nav>
+        <!-- end sns-nav -->
+        <small class="copy-right" translate="no">©<span class="c-font-english--uppercase">GIGA vr</span>.jp</small>
+      </div>
+    </footer>
+    <!-- endfooter -->
+  </body>
+  <!-- end body -->
+</html>
